@@ -12,15 +12,12 @@ module.exports = function unique(inputArray, key = null) {
   if (key !== null) {
     if (typeof key === 'string') {
       var items = [...inputArray];
-      var itemsByKey = items.map(i => i[key]);
+      var itemsByKey = inputArray
+        .map(i => i[key])
+        .filter(getOnlyUniqueItems);
 
-      inputArray.forEach(i => {
-        if (!itemsByKey.includes(i[key])) {
-          items.unshift(i);
-        }
-      });
-
-      return items;
+      return itemsByKey
+        .map(itemKey => items.find(item => item[key] === itemKey));
     } else {
       throw new TypeError('Function unique() expects the second argument "key" to be a type of string.');
     }
