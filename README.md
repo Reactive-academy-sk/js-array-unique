@@ -7,10 +7,10 @@ Function to remove duplicated items from item and return array with unique eleme
 
 ## Installation
 ```bash
-npm install @Reactive-academy/js-array-unique
+npm install @reactive-academy/js-array-unique
 ```
 ```bash
-yarn add @Reactive-academy/js-array-unique
+yarn add @reactive-academy/js-array-unique
 ```
 
 ## Usage
