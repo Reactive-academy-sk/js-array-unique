@@ -1,5 +1,5 @@
 {
-  "name": "js-array-unique",
+  "name": "@Reactive-academy/js-array-unique",
   "description": "Function to remove duplicated items from item and return array with unique elements only",
   "version": "1.0.0",
   "homepage": "https://github.com/Reactive-academy-sk/js-array-unique",
