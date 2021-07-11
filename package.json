@@ -6,7 +6,7 @@
   "author": "Patrik Mäsiar (https://github.com/patrikmasiar)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Reactive-academy-sk/js-array-unique"
+    "url": "git+https://github.com/Reactive-academy-sk/js-array-unique.git"
   },
   "bugs": {
     "url": "https://github.com/Reactive-academy-sk/js-array-unique/issues"
@@ -30,5 +30,8 @@
     "typescript",
     "uniq",
     "items"
-  ]
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
