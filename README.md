@@ -1,5 +1,5 @@
 # js-array-unique
-Function to remove duplicated items from item and return array with unique elements only
+Function to remove duplicated items from array and return an array with unique elements only
 
 [![npm](https://img.shields.io/npm/v/react-multilevel-dropdown?style=plastic)](https://www.npmjs.com/package/@reactive-academy/js-array-unique)
 [![NPM](https://img.shields.io/npm/l/react-keyboard-key)](https://github.com/Reactive-academy/js-array-unique/blob/main/LICENSE)
