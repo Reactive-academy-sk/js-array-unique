@@ -1,7 +1,9 @@
 # js-array-unique
 Container and hook with keyboard event listener.
 
+[![npm](https://img.shields.io/npm/v/react-multilevel-dropdown?style=plastic)](https://www.npmjs.com/package/@reactive-academy/js-array-unique)
 [![NPM](https://img.shields.io/npm/l/react-keyboard-key)](https://github.com/Reactive-academy/js-array-unique/blob/main/LICENSE)
+[![NPM](https://img.shields.io/npm/dy/react-keyboard-key?style=plastic)](https://www.npmjs.com/package/@reactive-academy/js-array-unique)
 
 ## Installation
 ```bash
