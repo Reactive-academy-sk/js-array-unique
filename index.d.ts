@@ -1,4 +1,4 @@
-declare module 'js-array-unique' {
+declare module '@reactive-academy/js-array-unique' {
   const unique: (
     inputArray?: any[],
     key?: string,

@@ -16,7 +16,7 @@ yarn add @reactive-academy/js-array-unique
 ## Usage
 ### Array with primitive items
 ```javascript
-import unique from 'js-array-unique';
+import unique from '@reactive-academy/js-array-unique';
 
 const items = ['a', 'b', 'c', 'c', 'a'];
 // output: ['a', 'b', 'c']
@@ -25,7 +25,7 @@ const uniqueItems = unique(items);
 
 ### Objects in the array
 ```javascript
-import unique from 'js-array-unique';
+import unique from '@reactive-academy/js-array-unique';
 
 const items1 = [{id: 1, name: 'Patrick'}, {id: 2, name: 'John'}];
 const items2 = [{id: 1, name: 'Patrick'}, {id: 1, name: 'Patrick'}, {id: 2, name: 'John'}, {id: 3, name: 'Frank'}];
